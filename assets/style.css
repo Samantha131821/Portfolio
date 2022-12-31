@@ -82,7 +82,8 @@ a:active {
     border-width: 5px;
     padding: 10px;
     text-align: center;
-    margin-left: 425px;
+    margin:auto;
+
 }
 
 #github {
