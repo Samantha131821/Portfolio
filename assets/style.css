@@ -2,21 +2,18 @@ body {
     background-image: linear-gradient(rgba(236, 238, 238, 0.932), rgb(106, 137, 141));
     text-align: center;
     box-sizing: border-box;
+    margin:50px;
 }
-
-.page-title {
-    color:black;
-    font-family:lucida-handwriting;
-}
-
 
 h1 {
-    font-size: 45px;
-    font-style: italic;
+    color: rgb(9, 11, 12);
+    font-family: garamond;
+    font-size: 40px;
     position:absolute;
-    margin:10px;
-    text-shadow: 8px 5px 9px #000000;
+    margin:5px;
+    margin-left: 40px;
 }
+
 
 p {
     color: black;
@@ -29,10 +26,12 @@ p {
     padding: 20px;
 }
 
+
 .header nav {
     float:right;
     font-size: 30px;
 }
+
 
 nav {
     margin: 20px;
@@ -40,20 +39,47 @@ nav {
     width: 500px;
     display: flex;
     justify-content: space-around;
+    color: rgb(14, 97, 122)
 }
 
-img {
-    width:60%;
+
+.profile{
+    width:95%;
 }
+
 
 .welcome {
     position: absolute;
-    top: 13%;
-    left: 26%;
-    font-size:40px;
+    top: 8%;
+    left: 15%;
+    font-size: 60px;
     font-family:garamond;
     font-weight: bold;
-    color:rgb(14, 97, 122);
+    color:rgb(55, 86, 126);
+}
+
+h3{
+    color:rgb(9, 11, 12);
+    position: absolute;
+    top: 22%;
+    left: 17%;
+}
+
+button {
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    background-color: rgb(55, 86, 126);
+    color: white;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(49, 48, 48);
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 90px;
+    font-size: 15px;
+   
 }
 
 
@@ -73,15 +99,13 @@ a:active {
 .container {
     position: relative;
     text-align: center;
-    color: black;
-    padding:30px;
-    margin: 50px;
+    margin-top: 70px;
 }
+
 
 .info {
     margin-bottom: 300px;
     padding: 20px;
-    height: 300px;
     font-family:garamond;
     color: white;
     font-size: 25px;
@@ -123,9 +147,10 @@ a:active {
 footer {
     text-align: center;
     margin-top: 100px;
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;
 }
+
 
 @media screen and (max-width: 768px) {
     body {
