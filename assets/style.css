@@ -9,11 +9,13 @@ h1 {
     color: rgb(9, 11, 12);
     font-family: garamond;
     font-size: 40px;
-    position:absolute;
     margin:5px;
     margin-left: 40px;
 }
 
+.name {
+    display: flex;
+}
 
 p {
     color: black;
@@ -22,16 +24,21 @@ p {
 }
 
 
-.header {
+header {
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
-.header nav {
+header nav {
     float:right;
     font-size: 30px;
 }
 
+nav a {
+    padding: 10px;
+}
 
 nav {
     margin: 20px;
@@ -41,7 +48,6 @@ nav {
     justify-content: space-around;
     color: rgb(14, 97, 122)
 }
-
 
 .profile{
     width:95%;
@@ -60,7 +66,6 @@ nav {
 
 h3{
     color:rgb(9, 11, 12);
-    position: absolute;
     top: 22%;
     left: 17%;
 }
@@ -71,9 +76,7 @@ button {
     left: 26%;
     background-color: rgb(55, 86, 126);
     color: white;
-    border-radius:10px;
     box-shadow: 0px 0px 2px 2px rgb(49, 48, 48);
-    border:none; 
     border-radius:10px; 
     padding:15px;
     min-height:30px; 
@@ -153,11 +156,23 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-    body {
+    nav {
       flex-direction: column;
     }
-  
-    main {
-      max-width: 1200px;
+
+    header {
+        flex-direction: column;
     }
+}
+
+
+
+@media screen and (max-width: 576px){
+    main,
+    nav {flex-direction: column;
+}
+}
+
+@media screen and  (max-wdith:320px){
+    flex-direction: column;
 }
