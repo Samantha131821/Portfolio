@@ -55,7 +55,6 @@ nav {
 
 
 .welcome {
-    position: absolute;
     top: 8%;
     left: 15%;
     font-size: 60px;
@@ -64,21 +63,24 @@ nav {
     color:rgb(55, 86, 126);
 }
 
+.resumelink {
+    position: absolute;
+    top: 8%;
+    left: 15%;
+}
+
 h3{
     color:rgb(9, 11, 12);
-    top: 22%;
-    left: 17%;
+    top: 23%;
+    left: 19%;
 }
 
 button {
-    position: absolute;
-    top: 30%;
-    left: 26%;
     background-color: rgb(55, 86, 126);
     color: white;
     box-shadow: 0px 0px 2px 2px rgb(49, 48, 48);
     border-radius:10px; 
-    padding:15px;
+    padding:10px;
     min-height:30px; 
     min-width: 90px;
     font-size: 15px;
@@ -89,6 +91,14 @@ button {
 a {
     color: black;
     text-decoration: none;
+}
+
+.abutton {
+    color: white;
+}
+
+.abutton:hover {
+    color: black;
 }
 
 a:hover {
