@@ -7,4 +7,5 @@ Within the website employers will be able to see a little about me, my previous 
 ![Image](./assets/screenshot.PNG)
 
 Here is the link to my website:
-file:///C:/Users/saman/OneDrive/Desktop/School%20Files/Portfolio/portfolio.html
+https://samantha131821.github.io/Portfolio/
+
